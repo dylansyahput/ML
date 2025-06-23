@@ -9,12 +9,12 @@ import re
 # Konfigurasi Halaman dan Judul
 # -------------------------------------------------------------------
 st.set_page_config(
-    page_title="Analisis Sentimen Komentar Instagram",
+    page_title="Analisis Sentimen Komentar Instagram & Twitter",
     page_icon="😊",
     layout="wide"
 )
 
-st.title("Analisis Sentimen Komentar Instagram 🇮🇩")
+st.title("Analisis Sentimen Komentar Instagram & Twitter")
 st.markdown("Aplikasi ini menggunakan model *Machine Learning* untuk memprediksi sentimen (positif atau negatif) dari teks komentar berbahasa Indonesia.")
 
 # -------------------------------------------------------------------
